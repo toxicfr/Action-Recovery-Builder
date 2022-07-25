@@ -6,19 +6,19 @@ on:
       MANIFEST_URL:
         description: 'MANIFEST_URL (if using SSH keys, use git@github.com:repo URL format)'
         required: true
-        default: 'https://github.com/SHRP/platform_manifest_twrp_omni -b v3_11.0'
+        default: 'https://github.com/PitchBlackRecoveryProject/manifest_pb -b v3_11.0'
       MANIFEST_BRANCH:
         description: 'MANIFEST_BRANCH'
         required: true
-        default: 'v3_11.0'
+        default: 'android-11.0'
       DEVICE_TREE_URL:
         description: 'DEVICE_TREE_URL'
 
-        default: 'https://github.com/twrpdtgen/android_device_xiaomi_camellia'
+        default: 'https://github.com/willzyx-hub/pbrp_device_xiaomi_camellia'
       DEVICE_TREE_BRANCH:
         description: 'DEVICE_TREE_BRANCH'
         required: true
-        default: 'camellia-user-11-RP1A.200720.011-V12.5.4.0.RKSMIXM-release-keys'
+        default: 'android-11.0'
       DEVICE_PATH:
         description: 'DEVICE_PATH'
         required: true
