@@ -13,12 +13,12 @@ on:
         default: 'twrp-11'
       DEVICE_TREE_URL:
         description: 'DEVICE_TREE_URL'
-        required: true
-        default: 'https://github.com/willzyx-hub/twrp_device_xiaomi_camellia'
+
+        default: 'https://github.com/twrpdtgen/android_device_xiaomi_camellia'
       DEVICE_TREE_BRANCH:
         description: 'DEVICE_TREE_BRANCH'
         required: true
-        default: 'android-11.0'
+        default: 'camellia-user-11-RP1A.200720.011-V12.5.4.0.RKSMIXM-release-keys'
       DEVICE_PATH:
         description: 'DEVICE_PATH'
         required: true
