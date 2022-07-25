@@ -6,7 +6,7 @@ on:
       MANIFEST_URL:
         description: 'MANIFEST_URL (if using SSH keys, use git@github.com:repo URL format)'
         required: true
-        default: 'https://github.com/PitchBlackRecoveryProject/manifest_pb -b v3_11.0'
+        default: 'https://github.com/PitchBlackRecoveryProject/manifest_pb -b android-11.0'
       MANIFEST_BRANCH:
         description: 'MANIFEST_BRANCH'
         required: true
